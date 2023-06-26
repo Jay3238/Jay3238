@@ -1,39 +1,37 @@
-// let menu=document.getElementById('menu');
-
-// function createLi(name){
-//     let li=document.createElement('li');
-//     li.innerHTML=name;
-//     return li;
-
-// }
-// menu.appendChild(createLi('jaynal'));
+ let menu=document.getElementById('menu');
+function createLi(name){
+   let li=document.createElement('li');
+   li.innerHTML=name;
+    return li;
+ }
+menu.appendChild(createLi('jaynal'));
 
 
-// menu.appendChild(createLi('Abedin'));
+ menu.appendChild(createLi('Abedin'));
 
 
-// menu.appendChild(createLi('jay'));
+ menu.appendChild(createLi('jay'));
 
 
 
 
 
 
-// let note=  document.getElementById('note');
-// console.log(note.textContent)
+ let note=  document.getElementById('note');
+ console.log(note.textContent)
 
-// let menu=document.querySelector('#menu');
-// console.log(menu.innerHTML)
+ let menu=document.querySelector('#menu');
+console.log(menu.innerHTML)
 
-// let menu=document.querySelector('#menu');
+ let menu=document.querySelector('#menu');
 
-// let p=document.createElement('p');
+ let p=document.createElement('p');
 
-// p.textContent='js dom tutorial';
-// menu.appendChild(p)
+ p.textContent='js dom tutorial';
+ menu.appendChild(p)
 
-// let menu=document.querySelector('#menu');
-// menu.innerHTML='<p>js dom</p>'
+let menu=document.querySelector('#menu');
+menu.innerHTML='<p>js dom</p>'
 
 let menu=document.querySelector('#menu');
 
